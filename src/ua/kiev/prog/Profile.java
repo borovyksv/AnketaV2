@@ -24,6 +24,7 @@ public class Profile extends HttpServlet {
         language.put(EN, 0);    prog.put(JAVA, 0);  rank.put(JUNIOR, 0);
         language.put(RU, 0);    prog.put(JS, 0);    rank.put(MIDDLE, 0);
         language.put(UA, 0);    prog.put(PHP, 0);   rank.put(SENIOR, 0);
+        prog.put(C_SHARP, 0);
     }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
