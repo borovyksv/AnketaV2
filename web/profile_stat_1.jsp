@@ -17,9 +17,9 @@
     <tr>
         <td>
             <h3 align="center">Пользователи</h3>
-            <select  size="7" >
+            <select  size="7" style="min-width: 510px;">
                 <c:forEach items="${users}" var="profile">
-                    <option><c:out value="${profile}"/></option>
+                    <option ><c:out value="${profile}"/></option>
                 </c:forEach>
             </select>
         </td>
